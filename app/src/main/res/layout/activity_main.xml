@@ -9,74 +9,78 @@
     android:padding="5dp"
     tools:context="com.yahvamobileppolytechnics.mobilepolytechnics.EmailPasswordActivity">
 
-    <TextView
-        android:id="@+id/textView_greeting"
-        style="@style/TextStyle"
+    <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/greeting"
-        android:textStyle="bold"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.4">
 
+        <TableRow>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="@string/autorisation"
+                android:textColor="@color/colorGreenDark"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/editText_email"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/editText_password"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/button_sign_in"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sign_in" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/button_reg"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/registration" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/forgpass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:gravity="bottom"
+                android:paddingTop="8dp"
+                android:text="@string/forgpass"
+                android:textColor="@color/lightGray"
+                android:textSize="16sp" />
+        </TableRow>
 
-
-    <EditText
-        android:id="@+id/editText_email"
-        style="@style/EditTextStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"
-        tools:text="E-mail" />
-
-    <EditText
-        android:id="@+id/editText_password"
-        style="@style/EditTextStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        tools:text="Password" />
-
-    <Button
-        android:id="@+id/button_sign_in"
-        style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/input"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.70"
-        />
-
-    <Button
-        android:id="@+id/button_reg"
-        style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/registration"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+    </TableLayout>
 
 </android.support.constraint.ConstraintLayout>
