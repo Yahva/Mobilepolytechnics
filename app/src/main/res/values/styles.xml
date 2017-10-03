@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorGreenDark</item>
+        <item name="colorPrimary">@color/colorGreenDark</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/colorGreenDark</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_textview</item>
+        <item name="android:textSize">20pt</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="EditTextStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_edittext</item>
+        <item name="android:textSize">13pt</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="RegButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+    <style name="RegTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/colorGreenDark</item>
+    </style>
+    <style name="RegEditTextNeutralStyle">
+        <item name="colorControlActivated">@color/colorGreenDark</item>
+        <item name="colorControlHighlight">@color/colorGreenDark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:ems">8</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorGreenDark</item>
+        <item name="android:textColorPrimary">@color/colorOrang</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+</resources>

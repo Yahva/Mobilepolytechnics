@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619706082372",
+    "firebase_url": "https://mobilepolytechnics-b78cd.firebaseio.com",
+    "project_id": "mobilepolytechnics-b78cd",
+    "storage_bucket": "mobilepolytechnics-b78cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619706082372:android:dc5c0c5361912906",
+        "android_client_info": {
+          "package_name": "com.yahvamobileppolytechnics.mobilepolytechnics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619706082372-nd44d4vpc45ths8gfnspv91b9m6rl9ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yahvamobileppolytechnics.mobilepolytechnics",
+            "certificate_hash": "828f4f104ddbe00cb3c114231b71bcaf379fed7f"
+          }
+        },
+        {
+          "client_id": "619706082372-s35iqqg24uimadmjgmfh1lu8id5rb2af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcojPXfTRyAZ2NzCwVZPS9EYZ6v2LmdC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619706082372-s35iqqg24uimadmjgmfh1lu8id5rb2af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

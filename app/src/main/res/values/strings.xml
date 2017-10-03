@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">"Мобильный университет"</string>
+    <string name="greeting">Авторизация</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="input">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="loading">Загрузка...</string>
+    <string name="auth_failed">Аутентификация не удалась</string>
+
+    <string name="title_activity_reg">Регистрация</string>
+    <string name="reg_email">E-mail:</string>
+    <string name="reg_password">Пароль:</string>
+    <string name="reg_repassword">Повторите\n пароль:</string>
+    <string name="regUniversity">Университет:</string>
+    <string name="regInstitute">Институт:</string>
+    <string name="regKurs">Курс:</string>
+    <string name="regGroup">Группа:</string>
+    <string name="regFirstName">Имя:</string>
+    <string name="regSecondName">Фамилия:</string>
+    <string name="back">Назад</string>
+    <string name="forward">Вперед</string>
+
+
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_chat">Чат</string>
+    <string name="title_schedule">Расписание</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Profile</string>
+</resources>

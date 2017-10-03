@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_registration2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewName"
+                style="@style/RegTextStyle"
+                android:text="@string/regSecondName" />
+
+            <EditText
+                android:id="@+id/editTextName_surename"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName"
+                android:theme="@style/RegEditTextNeutralStyle"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_firstname"
+                style="@style/RegTextStyle"
+                android:text="@string/regFirstName" />
+
+            <EditText
+                android:id="@+id/editText_firstname"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName"
+                android:theme="@style/RegEditTextNeutralStyle"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/RegTextStyle"
+                android:text="@string/regUniversity" />
+
+            <EditText
+                android:id="@+id/editText_university"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/RegTextStyle"
+                android:text="@string/regInstitute" />
+
+            <EditText
+                android:id="@+id/editText_institute"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewRepas"
+                style="@style/RegTextStyle"
+                android:text="@string/regGroup" />
+
+            <EditText
+                android:id="@+id/editText_group"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/RegTextStyle"
+                android:text="@string/regKurs" />
+
+            <EditText
+                android:id="@+id/editText_kurs"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

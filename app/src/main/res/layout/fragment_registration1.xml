@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+   >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/RegTextStyle"
+                android:text="@string/reg_email" />
+            
+            <EditText
+                android:id="@+id/reg_editText_email"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textEmailAddress"
+                android:theme="@style/RegEditTextNeutralStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/RegTextStyle"
+                android:text="@string/reg_password"
+             />
+
+            <EditText
+                android:id="@+id/reg_editText_password"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPassword"
+                android:theme="@style/RegEditTextNeutralStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/RegTextStyle"
+                android:text="@string/reg_repassword" />
+
+            <EditText
+                android:id="@+id/reg_editText_repassword"
+                style="@style/RegEditTextNeutralStyle"
+                android:inputType="textPassword"
+                android:theme="@style/RegEditTextNeutralStyle"/>
+
+        </TableRow>
+    </TableLayout>
+    
+</android.support.constraint.ConstraintLayout>
